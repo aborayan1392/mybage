@@ -1,0 +1,27 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3D4F5C"/>
+      <stop offset="1" stop-color="#1C2731"/>
+    </linearGradient>
+    <linearGradient id="shelf" x1="0" y1="0" x2="512" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#DDB65E"/>
+      <stop offset="1" stop-color="#7B2D3E"/>
+    </linearGradient>
+    <linearGradient id="ribbon" x1="0" y1="0" x2="0" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E4C169"/>
+      <stop offset="1" stop-color="#B5872A"/>
+    </linearGradient>
+    <linearGradient id="bookA" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8C3A4C"/><stop offset="1" stop-color="#6B2434"/></linearGradient>
+    <linearGradient id="bookB" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E4C169"/><stop offset="1" stop-color="#A57821"/></linearGradient>
+    <linearGradient id="bookC" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4C7F68"/><stop offset="1" stop-color="#2E5744"/></linearGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.35"/></filter>
+  </defs>
+  <rect x="0" y="0" width="512" height="512" rx="118" ry="118" fill="url(#bg)"/>
+  <g opacity="0.05"><rect x="40" y="0" width="2" height="512" fill="#ffffff"/><rect x="120" y="0" width="2" height="512" fill="#ffffff"/><rect x="200" y="0" width="2" height="512" fill="#ffffff"/><rect x="280" y="0" width="2" height="512" fill="#ffffff"/><rect x="360" y="0" width="2" height="512" fill="#ffffff"/><rect x="440" y="0" width="2" height="512" fill="#ffffff"/></g>
+  <path d="M 234 40 L 278 40 L 278 236 L 256 216 L 234 236 Z" fill="url(#ribbon)" filter="url(#soft)"/>
+  <rect x="96" y="366" width="320" height="18" rx="9" fill="url(#shelf)" filter="url(#soft)"/>
+  <g filter="url(#soft)"><rect x="148" y="196" width="58" height="170" rx="7" fill="url(#bookA)"/><rect x="214" y="156" width="66" height="210" rx="7" fill="url(#bookB)"/><rect x="288" y="216" width="58" height="150" rx="7" fill="url(#bookC)"/></g>
+  <rect x="160" y="206" width="4" height="150" rx="2" fill="rgba(255,255,255,0.28)"/><rect x="230" y="168" width="4" height="188" rx="2" fill="rgba(255,255,255,0.3)"/><rect x="300" y="226" width="4" height="130" rx="2" fill="rgba(255,255,255,0.28)"/>
+  <circle cx="360" cy="150" r="54" fill="#F3ECDD" filter="url(#soft)"/><circle cx="360" cy="150" r="54" fill="none" stroke="#B5872A" stroke-width="8"/><path d="M 337 150 L 353 166 L 385 130" fill="none" stroke="#1C2731" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
